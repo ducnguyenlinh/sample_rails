@@ -21,16 +21,23 @@
 
 en:
   header: "Ruby on Rails Tutorial Sample App"
+  footer:
+    content1: "The"
+    link_to1: "Ruby on Rails Tutorial"
+    content2: "by"
+    link_to2: "Michael Hartl"
+    link_to3: "News"
   home:
     title: "Home"
     header: "Welcome to the Sample App"
     content1: "This is the home page for the"
-    link: "Ruby on Rails Tutorial"
+    link_to1: "Ruby on Rails Tutorial"
     content2: "sample application."
+    link_to2: "Sign up now!"
   contact:
     title: "Contact"
-    content: "Contact the Ruby on Rails Tutorial about the sample app at the"
-    link: "contact page"
+    content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    link_to1: "contact page"
   about:
     title: "About"
     content1: "The"
@@ -50,4 +57,7 @@ en:
     content2: "To get help on this sample app, see the"
     link2: "Ruby on Rails Tutorial"
     content3: "book"
-
+  sample_app: "sample app"
+  login: "Log in"
+  sign_up:
+    title: "Sign up"

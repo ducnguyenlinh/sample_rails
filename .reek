@@ -4,3 +4,6 @@ IrresponsibleModule:
 exclude_paths:
   - "vendor"
   - "db/migrate"
+
+FeatureEnvy:
+  enabled: false
