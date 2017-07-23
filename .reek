@@ -7,3 +7,6 @@ exclude_paths:
 
 FeatureEnvy:
   enabled: false
+
+TooManyStatements:
+  enabled: false
