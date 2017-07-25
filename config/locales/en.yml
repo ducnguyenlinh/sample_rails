@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  welcome: "Welcome to the Sample App!"
   header: "Ruby on Rails Tutorial Sample App"
   footer:
     content1: "The"
@@ -61,3 +62,9 @@ en:
   login: "Log in"
   sign_up:
     title: "Sign up"
+  danger: "No user was found!"
+  error: "error"
+  the_form_contain: "The form contains"
+  users:
+    create: "Create my account"
+    confirmation: "Confirmation"
