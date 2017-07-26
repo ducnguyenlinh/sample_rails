@@ -60,6 +60,7 @@ en:
     content3: "book"
   sample_app: "sample app"
   login: "Log in"
+  log_out: "Log out"
   sign_up:
     title: "Sign up"
   danger: "No user was found!"
@@ -68,3 +69,12 @@ en:
   users:
     create: "Create my account"
     confirmation: "Confirmation"
+  sessions:
+    title: "Log in"
+    signup: "Sign up now"
+    new_user: "New user?"
+    profile: "Profile"
+    setting: "Setting"
+    users: "Users"
+    account: "Account"
+  invalid_email: "Invalid email/password combination"
