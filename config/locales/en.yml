@@ -77,4 +77,5 @@ en:
     setting: "Setting"
     users: "Users"
     account: "Account"
+    remember: "Remember me on this computer"
   invalid_email: "Invalid email/password combination"
