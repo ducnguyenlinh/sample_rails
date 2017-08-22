@@ -1,13 +1,13 @@
 class UsersController < ApplicationController
   attr_reader :user
 
-  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
-  before_action :find_user, only: [:show, :edit, :update, :destroy]
-  before_action :correct_user, only: [:edit, :update]
+  before_action :logged_in_user, except: %i(new create show)
+  before_action :find_user, except: %i(index new create)
+  before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.where(activated: FILL_IN).paginate(page: params[:page])
+    @users = User.paginate page: params[:page]
   end
 
   def new
@@ -25,10 +25,7 @@ class UsersController < ApplicationController
     end
   end
 
-  def show
-    @user = User.find(params[:id])
-    redirect_to root_url and return unless FILL_IN
-  end
+  def show; end
 
   def edit; end
 
