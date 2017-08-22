@@ -99,3 +99,16 @@ en:
     account_activated: "Account activated!"
     invalid_activation: "Invalid activation link"
     info: "Please check your email to activate your account."
+  resets_password:
+    forgot: "Forgot password"
+    submit: "Submit"
+    info: "Email sent with password reset instructions"
+    danger: "Email address not found"
+    password_reset: "Reset password"
+    this_link: "This link will expire in two hours."
+    text: "If you did not request your password to be reset, please ignore this
+      email and your password will stay as it is."
+    update: "Update password"
+    error: "Can be empty"
+    success: "Password has been reset."
+    check_danger: "Password reset has expired."
