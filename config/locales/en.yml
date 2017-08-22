@@ -69,6 +69,18 @@ en:
   users:
     create: "Create my account"
     confirmation: "Confirmation"
+    logged_in_danger: "Please log in."
+    update_success: "Profile updated"
+    edit:
+      title: "Edit user"
+      update: "Update your profile"
+      confirmation: "Confirmation"
+      save_change: "Save changes"
+      link_to1: "Change"
+    index:
+      title: "All users"
+      you_sure: "You sure?"
+    delete: "User deleted"
   sessions:
     title: "Log in"
     signup: "Sign up now"
