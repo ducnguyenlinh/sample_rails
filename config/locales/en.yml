@@ -58,7 +58,7 @@ en:
     content2: "To get help on this sample app, see the"
     link2: "Ruby on Rails Tutorial"
     content3: "book"
-  sample_app: "sample app"
+  sample_app: "Sample App"
   login: "Log in"
   log_out: "Log out"
   sign_up:
@@ -91,3 +91,11 @@ en:
     account: "Account"
     remember: "Remember me on this computer"
   invalid_email: "Invalid email/password combination"
+  mailer:
+    hi: "Hi"
+    account_activation: "Account activation"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+    account_activated: "Account activated!"
+    invalid_activation: "Invalid activation link"
+    info: "Please check your email to activate your account."
